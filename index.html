@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Copito</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url("https://img.freepik.com/vector-gratis/diseno-fondo-patron-huella-lindo-llamativo_1017-49663.jpg?t=st=1733514397~exp=1733517997~hmac=015ab3f781469f45107d35dc40ddeb66166abafb19b81bf5a3dabfe8f9e132a9&w=740");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .card {
+        text-align: center;
+        width: 300px;
+        border-radius: 15px;
+        overflow: hidden;
+        background: #ffffff;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+      .card:hover {
+        transform: scale(1.05);
+      }
+      .card img {
+        width: 100%;
+        height: auto;
+        border-bottom: 2px solid #87ceeb; /* Azul cielo */
+      }
+      .card p {
+        margin: 10px 0;
+        font-size: 18px;
+        color: #333;
+      }
+      .card p:first-of-type {
+        font-weight: bold;
+        color: #1e90ff; /* Azul Dodger */
+      }
+      .card p.gender {
+        color: #4169e1; /* Azul Royal */
+      }
+      .card p:last-of-type {
+        color: #008000; /* Verde */
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="card">
+        <img
+          src="https://images.pexels.com/photos/1084425/pexels-photo-1084425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="cat"
+        />
+        <p>Name: Copito 🐾</p>
+        <p class="gender">Gender: Male ♂️</p>
+        <p>Age: 10 years old 🎂</p>
+        <p>Country: Colombia 🇨🇴</p>
+        <p>Birthday: October 21st 🎉</p>
+      </div>
+    </section>
+  </body>
+</html>
